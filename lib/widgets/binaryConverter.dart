@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Converter extends StatefulWidget {
+class BinaryConverter extends StatefulWidget {
   @override
-  _ConverterState createState() => _ConverterState();
+  _BinaryConverterState createState() => _BinaryConverterState();
 }
 
-class _ConverterState extends State<Converter> {
+class _BinaryConverterState extends State<BinaryConverter> {
   String _binary = "";
   String _decimal = "0";
 
