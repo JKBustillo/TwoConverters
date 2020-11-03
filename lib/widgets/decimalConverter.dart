@@ -20,7 +20,11 @@ class _DecimalConverterState extends State<DecimalConverter> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Scaffold(
+      appBar: new AppBar(
+        title: new Text("Decimal Converter"),
+      ),
+      body: new Container(
       margin: const EdgeInsets.only(top: 8.0),
       child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: <
           Widget>[
@@ -286,6 +290,7 @@ class _DecimalConverterState extends State<DecimalConverter> {
               ]),
         ),
       ]),
+      )
     );
   }
 }
